@@ -19,7 +19,7 @@ SET(VERSION "${VERSION_MAJOR}.${VERSION_MINOR}")
 #############################################################################
 
 # require out-of-source build
-MACRO_REQUIRE_OUT_OF_SRC_BUILD("LIBFBI requires out-of-source builds.")
+#MACRO_REQUIRE_OUT_OF_SRC_BUILD("LIBFBI requires out-of-source builds.")
 
 # more warnings against everything
 IF(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_COMPILER_IS_CLANG)
